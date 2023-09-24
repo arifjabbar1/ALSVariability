@@ -1,4 +1,4 @@
-![image](https://github.com/arifjabbar1/ALSVariability/assets/63941822/56b8987e-8e43-4e74-aa04-21da40b24cae)# ALSVariability
+# ALSVariability
 Repository Containing Code Used in 'Describing and Characterising Variability in ALS Disease Progression' Published in ALS-FTD. PROACT database files are available at https://ncri1.partners.org/ProACT.
 
 The file 'Data Aggregation.R' takes in the adverse events file from the PRO-ACT database and 'ALSdataimputedknn_GL_cv0.csv' obtained from Python file. It can be used to generate these files: 'Var_6mo_6mo.csv', 'Var_9mo_9mo.csv', 'Var_12mo_12mo.csv' and 'Var_Tot.csv' for the 6, 9, 12 months and total trial duration period windows described in the paper. 
