@@ -1,5 +1,7 @@
 #importingdata
 library(xgboost)
+library(dplyr)
+library(ROSE)
 '%!in%' <- function(x,y)!('%in%'(x,y))
 cv0=read.csv("Var_6mo_6mo.csv")[,-1] #read processed data files - pick 6mo, 9mo or 12mo
 databasecv0=read.csv("ALSdataimputedknn_GL_cv0.csv")[,-1]
