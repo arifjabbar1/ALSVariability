@@ -12,3 +12,9 @@ The file 'ML Training.R' takes 'Var_6mo_6mo.csv', 'Var_9mo_9mo.csv' and 'Var_12m
 'Data Aggregation (Single Time Point).R' aggregates data from 'ALSdataimputedknn_GL_cv0.csv' obtained from 'impute_andwindow.ipynb' and generates 'SingleTimePoints.csv'. ‘Single Time Point Predictions.R' generate classification models which predict variability without utilising an observation window. ‘Reduced model.R’ generates a similar classification model from this datafile but with a reduced number of parameters.
 
 Required packages in R are ROSE, XGBoost, ggplot2 and dplyr.
+
+## Usage order
+1. clean_and_merge_data.ipynb
+2. impute_and_window.ipynb
+3. Data Aggregation.R / Data Aggregation (Single Time Point).R
+4. ML Training.R / Single Time Point Predictions.R
